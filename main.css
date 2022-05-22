@@ -1,0 +1,160 @@
+.hero-wrapper {
+  background: #014E56;
+  background-image: url(./images/hero.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 720px) calc(50% + 140px);
+}
+
+.header__logo {
+  text-decoration: none ;
+}
+
+.header__logo:hover {
+  opacity: 0.6;
+}
+
+.header__logo:active {
+  opacity: 0.4
+}
+
+.hero {
+  padding: 120px 0;
+}
+
+.hero__heading {
+  margin: 0;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  color: #FFFFFF;
+}
+
+.hero__line {
+  background: #F67E7E;
+  width: 50px;
+  height: 4px;
+}
+.hero__desc {
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  max-width: 730px;
+}
+
+.meet {
+  background: #004047;
+  padding: 140px 0;
+  background-image: url(./images/meet.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.meet__heading {
+  margin: 0;
+  margin-bottom: 64px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.meet__list {
+  margin: -24px;
+}
+
+.meet__item {
+  margin: 24px;
+  padding: 32px 24px 32px 24px;
+  text-align: center;
+  background: #012F34;
+  max-width: 350px;
+  width: 100%;
+}
+
+.meet__desc {
+  margin: 0;
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #79C8C7;
+}
+
+.meet__desc-small {
+  margin: 0;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.meet__img {
+  position: relative;
+  top: 60px;
+}
+
+.clients {
+  padding: 140px 0;
+  background: #012F34;
+  background-image: url(./images/clients-bg.png);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position: calc(50% + -660px ) calc(50% + -110px);
+}
+
+.clients__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clients__heading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.ready {
+  padding: 76px 0;
+  background: #F67E7E;
+  background-image: url(./images/ready.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + -660px ) calc(50% + 28px);
+}
+
+.ready__heading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #012F34;
+  margin-right: 260px;
+}
+
+.btn {
+  max-width: 153px;
+  width: 100%;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.footer {
+  padding: 48px 0;
+  background: #002529;
+}
+
+.footer__left {
+  margin-right: 125px;
+}
+
+.footer__desc {
+  max-width: 145px;
+}
+
+.footer__right-list {
+  max-width: 104px;
+}
